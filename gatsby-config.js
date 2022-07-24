@@ -15,7 +15,11 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/mensur-durakovi%C4%87-5a229a99/`,
     // Content of the About Me section
-    about: `I'm defined by my zest for life and my curious nature. I have been fortunate enough to gain a lot of life experiences throughout my life and have not stopped taking on impossible, beat-your-head-against-the-wall challenges. This brought me great perspective and has also made me passionate about making a difference and having a positive impact on my environment. I've never really viewed myself as particularly talented. Where I excel is ridiculous, sickening work ethic. I would describe myself as a tireless productivity freak, a man in permanent beta, always trying to improve, to learn and grow as a person and as a professional. Trying to be a better man than I was yesterday.`,
+    about: `I'm defined by my zest for life and my curious nature. I have been fortunate enough to gain a lot of life experiences throughout my life and have not stopped taking on impossible, beat-your-head-against-the-wall challenges. 
+    
+    This brought me great perspective and has also made me passionate about making a difference and having a positive impact on my environment.
+    
+    I've never really viewed myself as particularly talented. Where I excel is ridiculous, sickening work ethic. I would describe myself as a tireless productivity freak, a man in permanent beta, always trying to improve, to learn and grow as a person and as a professional. Trying to be a better man than I was yesterday.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -54,7 +58,7 @@ module.exports = {
         link: 'https://www.algebra.hr/',
       },
       {
-        name: 'University Department of Professional Studies',
+        name: 'University Department of Professional Studies, Split, Croatia',
         description: 'Assistant professor, February 2016 - Present',
         link: 'https://www.oss.unist.hr/',
       },
@@ -65,7 +69,7 @@ module.exports = {
         link: 'https://pseudocode.agency/',
       },
       {
-        name: 'Faculty of Science',
+        name: 'Faculty of Science, Split, Croatia',
         description: 'Assistant professor, Feb 2016 - Mar 2020',
         link: 'https://www.pmfst.unist.hr/',
       },

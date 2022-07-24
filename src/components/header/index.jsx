@@ -18,7 +18,6 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const instagram = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -46,17 +45,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin} target="_blank" rel="noreferrer">
                 LinkedIn
-              </a>
-            </li>
-          )}
-          {instagram && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                target="_blank" rel="noreferrer"
-                href={`https://www.instagram.com/${instagram}`}
-              >
-                Instagram
               </a>
             </li>
           )}
