@@ -49,7 +49,7 @@ module.exports = {
       {
         name: 'Agilathon',
         description:
-          'Squad Lead Developer/Senior Software Developer, November 2021 - Present',
+          'Squad Lead Developer / Senior Software Developer, November 2021 - Present',
         link: 'https://agilathon.com/',
       },
       {
@@ -100,7 +100,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), TypeScript, Node.js, Express.js, GraphQL, React, HTML, CSS/SCSS, Flutter, Java, Python',
+          'JavaScript (ES6+), TypeScript, Node.js, Express.js, GraphQL, React, HTML, CSS / SCSS, Flutter, Java, Python',
       },
       {
         name: 'Databases',
@@ -109,6 +109,32 @@ module.exports = {
       {
         name: 'Other',
         description: 'Git, Microservices, API design, Agile / Scrum',
+      },
+    ],
+    volunteering: [
+      {
+        name: 'Mentoring Byte',
+        link: 'https://www.mentoringbyte.com/',
+        description: 'Mentor, November 2020 - March 2022',
+      },
+      {
+        name: 'Split Tech City',
+        link: 'https://split-techcity.com/',
+        description: 'Writer, January 2020 - July 2021',
+      },
+    ],
+    languages: [
+      {
+        name: 'Croatian',
+        description: 'Native or bilingual proficiency',
+      },
+      {
+        name: 'English',
+        description: 'Full professional proficiency',
+      },
+      {
+        name: 'German',
+        description: 'Limited working proficiency',
       },
     ],
   },
