@@ -4,7 +4,6 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const BlogPosts = ({ posts }) => {
-  console.log("posts", posts)
   return (
     <Section title="All Blog Posts">
       {posts.map((post) => (
