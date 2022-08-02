@@ -1,7 +1,7 @@
 ---
 title: 'Practical guide for comments in the code'
 date: '2022-08-03T21:05:00.00Z'
-description: 'Nedavno sam pročitao članak na Netokraciji u kojem se piše o postignuću nekog momka koji je...'
+description: 'One of the most discussed things in programming is about comments in the...'
 isStcArticle: false
 stcUrl: ''
 ---
