@@ -1,5 +1,5 @@
 ---
-title: 'Kako kreirati developerski portfolio?'
+title: 'Kako kreirati developerski portfolio? [CRO]'
 date: '2020-06-07T12:00:00.00Z'
 description: 'Rečenica koju sam oduvijek mrzio, a koju klijenti i poslodavci vole često reći...'
 isStcArticle: true

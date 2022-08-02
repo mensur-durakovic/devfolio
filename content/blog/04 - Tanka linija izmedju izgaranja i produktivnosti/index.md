@@ -1,5 +1,5 @@
 ---
-title: 'Tanka linija između produktivnosti i izgaranja'
+title: 'Tanka linija između produktivnosti i izgaranja [CRO]'
 date: '2020-03-16T12:00:00.00Z'
 description: 'Odmah na početku želim priznati da sam radoholičar. Svi mi to govore...'
 isStcArticle: true

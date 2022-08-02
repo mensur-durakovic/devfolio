@@ -1,5 +1,5 @@
 ---
-title: 'Kako postići ljubav na prvi posao?'
+title: 'Kako postići ljubav na prvi posao? [CRO]'
 date: '2020-04-27T12:00:00.00Z'
 description: 'U svom bezvremenskom hitu „Love at the first sight“, Kylie Minogue kaže...'
 isStcArticle: true

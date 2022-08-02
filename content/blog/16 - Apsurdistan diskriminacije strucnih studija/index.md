@@ -1,5 +1,5 @@
 ---
-title: 'Apsurdistan diskriminacije Sveučilišta nad stručnim studijima'
+title: 'Apsurdistan diskriminacije Sveučilišta nad stručnim studijima [CRO]'
 date: '2020-12-16T12:00:00.00Z'
 description: 'Svi su danas manje-više načuli za dramu oko borbe stručnih studija za opstanak, inicijative „300 je 300“...'
 isStcArticle: true

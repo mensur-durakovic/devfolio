@@ -4,6 +4,30 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const BlogPosts = ({ posts }) => {
+
+  function status(p){
+    if(p.status == 0) return 0
+    if(p.status > 0) return 1
+    if(p.status < 0) return 2
+  }
+
+  const PATIENT_STATUSES = {
+    NEW: 1,
+    UNAUTHORIZED: 0,
+    DEACTIVATED: 2
+  }
+
+  function getPatientStatus(patient){
+    if(patient.status === 0){ 
+      return PATIENT_STATUSES.UNAUTHORIZED
+    }
+    if(patient.status > 0){ 
+      return PATIENT_STATUSES.NEW
+    } 
+    return PATIENT_STATUSES.DEACTIVATED
+  }
+
+
   return (
     <Section title="All Blog Posts">
       {posts.map((post) => (
