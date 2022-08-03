@@ -33,8 +33,6 @@ Probably the biggest reason to write comments in the code is to explain what tha
 
 ## Code as a source of truth
 
-Probably the biggest reason to write comments in the code is to explain what that code is doing, to describe code behaviour. There are a lot of arguments for and against this practice, but one of the strongest arguments is the fact that new developers need to understand the code. Due to the natural circle of life in IT companies, where current developers move on, new developers join the team and people switch projects, these arguments sound pretty valid. Companies build products with the intention that code will live for decades.
-
 I totally understand previously explained arguments, but in my opinion code should be the only source of truth, not comments. My problem with code comments is that comments can not guarantee that code will behave as described in the comments. That totally depends on the author of the code and a lot of other things like refactorings, change requests, upgrades, bug fixes, optimizations that have been applied to the code for years and years. 
 
 One small change in the code can make code comments totally misleading and worthless. We don’t know if the code comment was updated every time the code has been changed. In that case, code comments can be even dangerous and in these situations, no code comment is better than having misleading code comments.
@@ -55,8 +53,8 @@ Here, some comments would be definitely helpful, but before adding a comments le
 
 ```js
 const PATIENT_STATUSES = {
-  NEW: 1,
   UNAUTHORIZED: 0,
+  NEW: 1,
   DEACTIVATED: 2
 };
 
@@ -70,6 +68,7 @@ function getPatientStatus(patient){
   return PATIENT_STATUSES.DEACTIVATED;
 }
 ```
+
 
 Is it better now? 
 
@@ -98,6 +97,7 @@ function calculateAge(birthDate, screeningVisitDate) {
 }
 
 ```
+
 
 Even though we can perfectly understand what is done in the code, we still don’t know what this function is doing, when we should use this function and what this code accomplishes. 
 Now let’s see how it looks when we add an explanatory comment:
