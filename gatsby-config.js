@@ -29,19 +29,20 @@ module.exports = {
         link: 'https://recmote.vercel.app/index.html',
       },
       {
-        name: 'IP address tracker',
-        description: 'Web application for IP address tracking',
-        link: 'https://ip-address-tracker-beta-indol.vercel.app/',
-      },
-      {
         name: 'Tetris game',
         description: 'Evergreen classic video game made in react',
         link: 'https://react-tetris-mensur-durakovic.vercel.app/',
       },
       {
-        name: 'Shortly',
-        description: 'Minimalistic URL shortener web application',
+        name: 'Speed Typing Test',
+        description:
+          'App for testing typing speed (React, TypeScript, Framer Motion, Tailwind)',
         link: 'https://shortly-git-master-mensur-durakovic.vercel.app/',
+      },
+      {
+        name: 'IP address tracker',
+        description: 'Web application for IP address tracking ',
+        link: 'https://ip-address-tracker-beta-indol.vercel.app/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
