@@ -6,7 +6,7 @@ isStcArticle: false
 stcUrl: ''
 ---
 
-I think about Slack as a virtual Sims game, we just don’t have 3D characters/avatars (yet). A bunch of people gather there 5 days a week, 8 hours per day working on a common goal. So it is pretty much necessary to behave well and not disturb your work buddies. Slack is really important tool if you are pure remote worker.
+I think about Slack as a work-related Sims game, we just don’t have 3D characters/avatars (yet). A bunch of people gather there 5 days a week, 8 hours per day working on a common goal. So it is pretty much necessary to behave well and not disturb your work buddies. Slack is really important tool if you are pure remote worker.
 
 ![Slack down](./slack-down.jpg)
 
