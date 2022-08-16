@@ -1,5 +1,5 @@
 ---
-title: '7 tips for good Slack bon ton'
+title: '7 tips for good Slack etiquette'
 date: '2022-08-15T22:35:00.00Z'
 description: 'I think about Slack as a virtual Sims game, we just don’t have 3D characters/avatars (yet). A bunch of ...'
 isStcArticle: false
@@ -10,10 +10,7 @@ I think about Slack as a work-related Sims game, we just don’t have 3D charact
 
 ![Slack down](./slack-down.jpg)
 
-Here are some tips for good Slack bon ton:
-
-
-
+Here are some tips for good Slack etiquette:
 ## 1. Analyse and review message before sending
 
 I have one colleague, she is a QA, very skilled and dear one. She likes to send me messages in this style:
