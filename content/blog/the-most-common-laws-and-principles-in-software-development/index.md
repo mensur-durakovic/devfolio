@@ -39,7 +39,7 @@ One day, I came to work and my manager told me that one of our clients encounter
 
 I spent half a day trying to reproduce it, but no success. After communicating with our client, they sent me videos and web URLs that they were using.
 
-Videos were played on Raspberry Pi device without a problem, but when I tried to open the URL, nothing was displayed, just white screen. Later, I tried to open their URL on my PC. As soon as I opened it, the CPU hit 100% and my PC froze. 
+Videos were played on Raspberry Pi device without a problem, but when I tried to open the URL, nothing was displayed, just white screen. Later, I tried to open their URL on my PC. As soon as I opened it, the memory usage was 100% and my PC froze. 
 
 It was a strong machine with an Intel i5 processor with 16GB of RAM. Website was just loading and loading and loading. After it was finally loaded I saw that it was a simple 3x3 grid which displayed some images. I saved the website content and inspected it. 
 
@@ -50,7 +50,6 @@ No wonder that poor little Raspberry Pi device with 1GB RAM was dying while tryi
 Later, I found out from a client that their designer created this website in some HTML editor and published it. It was a really good test for my nerves to communicate to the client what happened in a nice and polite way. 
 
 Hanlon’s razor at its finest. 
-
 
 ## 3. Ostrich effect - The tendency to avoid dangerous or negative information by simply closing oneself off from this information
 
