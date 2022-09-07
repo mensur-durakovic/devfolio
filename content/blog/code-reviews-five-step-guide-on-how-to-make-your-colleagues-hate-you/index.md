@@ -42,7 +42,7 @@ If they are overly enthusiastic and respond to your comment within the next 10 m
 
 If your colleague created a merge request on Monday and you commented the same day (to prevent a merge request from being merged), respond to their changes within 24 hours. Delay it for at least 24-48 hours.
 
-The ideal situation is for someone else to merge other codes, resulting in a merge conflict. This is an excellent opportunity to refuse to do a code review until the merge conflict is resolved. Why would you waste time reviewing code that may be changed once the merge conflict is resolved?
+The ideal situation is when someone else's merge request gets merged before theirs, resulting in a merge conflict. This is an excellent opportunity to refuse to do a code review until the merge conflict is resolved. Why would you waste time reviewing code that may be changed once the merge conflict is resolved?
 
 Before their merge request is merged, they should receive at least 2-3 merge conflicts in code review iterations. If they are able to merge their code with no merge conflicts, you are responding too quickly.
 
