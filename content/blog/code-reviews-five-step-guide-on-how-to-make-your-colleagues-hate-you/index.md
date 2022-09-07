@@ -88,7 +88,7 @@ Things to avoid if you want your coworkers to enjoy their work:
 - Rapidly review merge requests
 - Respond to code review comments as soon as possible.
 - Schedule time each day for code review.
-- When requesting code changes, make certain that the changes are tested.
+- When requesting code changes, make sure that the changes are tested.
 - Separate merge requests should be created for code cleanups.
 - Make small, frequent merge requests.
 - Respond to all feedback, either agreeing or giving an argument why you disagree.
