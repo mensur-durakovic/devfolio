@@ -15,11 +15,13 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/mensur-durakovi%C4%87-5a229a99/`,
     // Content of the About Me section
-    about: `I'm defined by my zest for life and my curious nature. I have been fortunate enough to gain a lot of life experiences throughout my life and have not stopped taking on impossible, beat-your-head-against-the-wall challenges. 
+    about: `My zest for life and inquisitive nature define me. I've been fortunate to have had many life experiences and have never shied away from taking on impossible head-against-the-wall challenges. This gave me a new perspective and inspired me to make a difference and have a positive impact on my environment.
+
+    I've never considered myself particularly gifted. My ridiculous, sickening work ethic is where I shine. I'd describe myself as a man in permanent beta, constantly striving to improve, learn and grow as a person and as a professional.
     
-    This brought me great perspective and has also made me passionate about making a difference and having a positive impact on my environment.
-    
-    I've never really viewed myself as particularly talented. Where I excel is ridiculous, sickening work ethic. I would describe myself as a tireless productivity freak, a man in permanent beta, always trying to improve, to learn and grow as a person and as a professional. Trying to be a better man than I was yesterday.`,
+    I live by two rules: 
+    1) Don't be a jerk 
+    2) Every man I meet is my superior in some way. In that, I learn of him.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
