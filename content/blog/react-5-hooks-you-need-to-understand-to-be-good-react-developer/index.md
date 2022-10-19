@@ -12,6 +12,8 @@ I know it's possible to do your job without even fully knowing them, as I spoke 
 
 Due to that, I have decided to write an article which explains how they work and how you can use them. Some of the content will cover the foundations but I will tell about more advanced stuff as well. So to be clear this is not the guide on how to **use** these hooks, but to **understand** them. 
 
+![hooks](./hooks.jpg)
+
 ## Component anatomy 
 
 For examples and explanations, we will use a simple card component, which shows some text and can be liked/unliked by the user. Nothing spectacular but it is enough for demonstration purposes.
