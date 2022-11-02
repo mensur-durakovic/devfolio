@@ -1,5 +1,5 @@
 ---
-title: 'Simple guide on how to create attractive 3D product screen in Flutter'
+title: 'A simple guide on how to create attractive 3D product screen in Flutter'
 date: '2022-11-02T15:00:00.00Z'
 description: 'Users love attractive and cool-looking features in the applications...'
 isStcArticle: false
@@ -7,6 +7,7 @@ stcUrl: ''
 ---
 
 Users love attractive and cool-looking features in the applications, so today we will learn how to create a super awesome yet easy-to-implement 3D product screen in Flutter. Here is the final version of the screen that we will build:
+
 
 ![3D shoes](./shoes2.jpg)
 
@@ -22,7 +23,7 @@ After you are done with your registration, picked your 3D model, you can click o
 
 ## Widgets
 
-Now before you start coding you should always analyze the design and visualize how you are going to dissect the design into widgets. Widgets are small reusable chunks of code, similar to components in React, Vue, or any other web framework.
+Now before you start coding you should always analyze the design and visualize how you are going to dissect the structure into widgets. Widgets are small reusable chunks of code, similar to components in React, Vue, or any other web framework.
 
 Here are the widgets that we will need to build for our product screen:
 
@@ -93,8 +94,9 @@ class ProductPage extends StatelessWidget {
 }
 ```
 
-Here we added couple of constants which we will pass down to the appropriate widgets. We also defined a blue theme for our app and a custom blue-ish color for our icons, tags, and purchase button.
-As our product description string is quite large, we split the string to take less space horizontally and it's a neat trick to make your code look a bit cleaner. The string will be displayed normally in the app as this doesn't actually change it.
+Here we added a couple of constants that we will pass down to the appropriate widgets. We also defined a blue theme for our app and a custom blue-ish color for our icons, tags, and purchase button.
+As our product description string is quite large, we split the string to take less space horizontally and it's a neat trick to make your code look a bit cleaner. The string will be displayed usually in the app as this doesn't change it.
+
 
 ## App bar widget
 
@@ -147,7 +149,7 @@ To make your own custom ```AppBar``` you have to add ```with``` keyword for ```P
 const double kToolbarHeight = 56.0;
 ```
 
-Rest of the code is pretty straightforward. We pass the ```text``` parameter which will be our app bar title and ```color``` parameter which will be used for the color of the shopping cart icon on the right side of the app bar.
+The rest of the code is pretty straightforward. We pass the ```text``` parameter which will be our app bar title and ```color``` parameter which will be used for the color of the shopping cart icon on the right side of the app bar.
 
 ## ProductText widget
 
@@ -187,11 +189,11 @@ class ProductText extends StatelessWidget {
 }
 ```
 
-Nothing special here, we pass title in the text parameter and give a text a bit of breathing room with ```Padding``` widget. As we plan to use this widget for product title and product description, parameters ```fontSize``` and ```fontWeight``` are also added so that we have flexibility. By default ```fontSize``` will be 16.0 and ```fontWeight``` will be ```FontWeight.normal```.
+Nothing special here, we pass the title in the text parameter and give a text a bit of breathing room with ```Padding``` widget. As we plan to use this widget for product title and product description, parameters ```fontSize``` and ```fontWeight``` are also added so that we have flexibility. By default ```fontSize``` will be 16.0 and ```fontWeight``` will be ```FontWeight.normal```.
 
 ## Tags widget
 
-Product can have multiple tags, usually 2 or 3, so we pass a list of strings for product tags and color for the background color of those tags. This is how our ```Tags``` widget code looks like:
+A product can have multiple tags, usually 2 or 3, so we pass a list of strings for product tags and color for the background color of those tags. This is what our ```Tags``` widget code looks like:
 
 ```csharp
 class Tags extends StatelessWidget {
@@ -298,7 +300,7 @@ class _QuantitySelectorState extends State<QuantitySelector> {
 }
 ```
 
-Here we are using ```Row``` widget so that we can position text "Quantity", decrease icon, current quantity value and increase icon next to each other on the X axis. 
+Here we are using ```Row``` widget so that we can position the text "Quantity", decrease the icon, and current quantity value, and increase the icon next to each other on the X axis. 
 
 We also have 2 ```onPressed``` event handlers ```decreaseQuantity``` and ```increaseQuantity``` which are executed when the user presses the ```IconButton```. 
 
@@ -308,7 +310,7 @@ Both of these function use ```setState()``` function to reflect the changes in q
 
 ## PurchaseButton widget
 
-Purchase button is a simple widget for a user to confirm his purchase
+The purchase button is a simple widget for a user to confirm his purchase
 
 ```csharp
 class PurchaseButton extends StatelessWidget {
@@ -350,7 +352,7 @@ class PurchaseButton extends StatelessWidget {
 }
 ```
 
-To make a nice wide round button, here we use ```InkWell``` widget to listen for ```onTap``` events, while ```Container``` widget is used for creating border radius and background color. We also pass reference to our ```onPurchaseHandler``` function in this widget, together with ```color``` for the button.
+To make a nice wide round button, here we use ```InkWell``` widget to listen for ```onTap``` events, while ```Container``` widget is used for creating border radius and background color. We also reference ```onPurchaseHandler``` function in this widget, together with ```color``` for the button.
 
 ## ProductBody widget
 
