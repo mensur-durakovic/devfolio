@@ -164,7 +164,7 @@ With the introduction of the new player type ```GameRatingCalculator``` class no
 
 According to this principle, *a program's objects should be able to be replaced with instances of their subtypes without affecting the program's correctness*.
 
-Good examples of the Liskov substitution principle are mammals. For example, a duck is a bird that can fly, swim and walk. On the other hand, the dog is also a mammal, but it can't fly, it can only walk and swim. So for both dogs and ducks, we can say that they are mammals, keeping in mind their natural behavior correctness.
+Good examples of the Liskov substitution principle are animals. For example, a duck is a bird that can fly, swim and walk. On the other hand, the dog is also an animal, but it can't fly, it can only walk and swim. So for both dogs and ducks, we can say that they are animals, keeping in mind their natural behavior correctness.
 
 ![fullstack](./fullstack.jpg)
 
