@@ -52,7 +52,7 @@ module.exports = {
       {
         name: 'Agilathon',
         description:
-          'Squad Lead Developer / Senior Software Developer, November 2021 - Present',
+          'Lead Developer / Senior Software Developer, November 2021 - Present',
         link: 'https://agilathon.com/',
       },
       {
@@ -140,6 +140,9 @@ module.exports = {
         description: 'Limited working proficiency',
       },
     ],
+  },
+  flags: {
+    THE_FLAG: false,
   },
   plugins: [
     {
