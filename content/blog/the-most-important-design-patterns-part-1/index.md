@@ -390,7 +390,10 @@ class Zombie implements IZombie {
   }
 
   clone(): IZombie {
-    return new Zombie();
+  	Zombie zombie = new Zombie()
+    zombie.color = this.color;
+    zombie.strength = this.strength;
+    return zombie;
   }
 
   bite(): void {
