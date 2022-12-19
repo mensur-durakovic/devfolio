@@ -2,6 +2,8 @@ import { graphql } from 'gatsby';
 import moment from 'moment';
 import React from 'react';
 
+import Subscribe from '../components/subscribe';
+
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -27,6 +29,7 @@ const BlogPost = ({ data }) => {
         className={classes.wrapper}
         dangerouslySetInnerHTML={{ __html: post.html }}
       />
+      <Subscribe/>
     </Layout>
   );
 };

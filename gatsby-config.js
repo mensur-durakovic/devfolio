@@ -212,5 +212,13 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://mensurdurakovic.us8.list-manage.com/subscribe/post?u=8302c4cd7a22ca97d06f9d7c5&amp;id=5a64f617f1&amp;f_id=00ee69e0f0', // string; add your MC list endpoint here; see instructions below
+        timeout: 3500,
+      },
+    },
   ],
 };
